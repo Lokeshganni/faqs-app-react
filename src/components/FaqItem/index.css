@@ -1,0 +1,57 @@
+/* Write your code here. */
+li {
+  list-style-type: none;
+  border: 1px solid #d7dae6;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.text-and-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-qns-para {
+  color: #52606d;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .faq-qns-para {
+    font-size: 18px;
+  }
+}
+
+.btn-card {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.icon {
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .icon {
+    width: 18px;
+  }
+}
+
+hr {
+  border: 1px solid #e4e7eb;
+}
+
+.faq-ans-para {
+  color: #9aa5b1;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .faq-ans-para {
+    font-size: 12px;
+  }
+}
